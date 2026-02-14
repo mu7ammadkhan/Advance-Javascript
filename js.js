@@ -1,6 +1,8 @@
 // ************Golbal and local variables and datatypes 
 // ************var is global ca be access from anywhere is the code but let is local can be accecces only in the code 
 
+// const { use } = require("react");
+
 // if (true) {
 //     var age = 20;
 // }
@@ -209,9 +211,35 @@
 // let isVerified =  true
 // document.querySelector('h1').innerText = !isVerified ? 'Verify please' : prompt('user verified')
 
-let isVerified = false
-if (!isVerified) {
-    document.querySelector('h1').innerText = 'Please verify'
-} else {
-    document.querySelector('h1').innerText = prompt()
-}
+// let isVerified = false
+// if (!isVerified) {
+//     document.querySelector('h1').innerText = 'Please verify'
+// } else {
+//     document.querySelector('h1').innerText = prompt()
+// }
+
+// *************************** Empty String Check *************************
+
+// let username = 'Muhammad Khan'
+// document.querySelector('h1').innerText = 
+// !username ? "Please Enter Username" : 'Welcome' + " " + username ;
+
+// ************** using if else ********** 
+
+// let username = ''
+// if (!username) {
+//     document.querySelector('h1').innerText = "Please Login"
+// } else {
+//     document.querySelector('h1').innerText = "Welcome " + username
+// }
+
+
+// **************************  Age Validation and ID verification *****************************
+
+
+let age = 19
+let hasID = true
+document.querySelector('h1').innerText = 
+age >= 18 && hasID ? 'Welcome' : 'Not eligible'
+
+ 
