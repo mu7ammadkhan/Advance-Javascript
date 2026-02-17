@@ -237,9 +237,140 @@
 // **************************  Age Validation and ID verification *****************************
 
 
-let age = 19
-let hasID = true
-document.querySelector('h1').innerText = 
-age >= 18 && hasID ? 'Welcome' : 'Not eligible'
+// let age = 19
+// let hasID = true
+// document.querySelector('h1').innerText = 
+// age >= 18 && hasID ? 'Welcome' : 'Not eligible'
 
- 
+// const number = 5
+// document.querySelector('h1').innerText = 
+// number % 2 != 0 ? "Even number" : "odd number"
+
+
+// ********************* for loop = if you know how many times you want to print
+
+// trying to print numbers from 1 to 10
+
+// for (let i = 1; i <= 10; i= i + 1) {
+//     console.log(i + ' MK');
+// }
+
+// for (let i = 0; i <= 10; i++) {
+//     console.log(i);
+// }
+
+// While loop **** you dont know how many steps wil be taken from initial point to final point
+
+// let ini_pos = 6
+// let home = 50
+
+// while (ini_pos != home) {
+//     ini_pos = ini_pos +1
+//     console.log("step taken " + ini_pos);
+// }
+
+//  Do while loop **************** do while loop will executes 1 time then chcks the condition if condition is already matchen fr bi it will run once then stops
+
+// let ini_pos = 50
+// let home = 50
+
+// do {
+//     ini_pos = ini_pos + 1;
+//     console.log('Step taken ' + ini_pos);
+    
+// } while (ini_pos <= home) {
+    
+// }
+
+// ************************** Problems of loops *********************
+
+// ****** FOR LOOP PRACTICE SET 10 *******
+
+// 1 Print numbers from 5 to 15
+
+// for (let i = 5; i <= 15; i++){
+//     console.log(i);
+  
+// }
+
+// 2 Print even numbers from 2 to 20
+
+// for (let num = 1; num <= 20 ; num++) {
+//     if (num % 2 === 0) {
+//         console.log(num);
+//     }
+// }
+
+// 3 Print odd numbers from 1 to 25
+
+// for (let num = 0; num <= 25; num++) {
+//     if (num % 2 != 0) {
+//         console.log(num);
+//     } 
+// }
+
+// Print even numbers with for loop by increment 2 num += 2 or num = num + 2
+
+// for (let num = 0; num <= 25; num+= 2) {
+//     console.log(num);
+// }
+
+
+// 4 Print table of 7
+
+// for (let num = 1; num <= 10; num++) {
+//     console.log("7 x " + num + " = " + (7 * num));
+// }
+
+
+// 5 Print numbers from 20 down to 1
+
+// for (let num = 20; num >= 1; num--) {
+//     console.log(num); 
+// }
+
+// 6 Print square of numbers from 1 to 10 square of numbers hota kya ha
+
+// for (let num = 1; num <= 10; num ++) {
+//     console.log(num* num); 
+// }
+
+// Print cube of numbers from 1 to 5
+
+// for (let num = 1; num <= 5; num++) {
+//     console.log(num * num * num);
+    
+// }
+
+// 8 Find sum of numbers from 1 to 100
+
+// let sum = 0
+// for (let num = 0; num <= 10 ; num++) {
+//     sum = sum + num
+//     console.log(sum);
+// }
+
+// 9 Count how many numbers between 1 and 50 are divisible by 3 and which are these
+
+// let Count = 0
+// for (let num = 1; num <= 50; num++) {
+//        if (num % 3 === 0) {
+//             console.log(num);
+//             Count++
+//        }    
+// }
+
+// console.log("Total numbers ",Count);
+
+// 10 Print this pattern 1 12 123 1234 12345 alse reverse 
+
+
+// for (let row = 9; row >= 1; row--) {
+//     let output = ''
+//     for (let col = 9; col >= row; col--) {
+//         output = output + col
+//     }
+//     console.log(output);
+    
+// }
+
