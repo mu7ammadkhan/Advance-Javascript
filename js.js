@@ -374,3 +374,41 @@
     
 // }
 
+// 1 Print numbers from 1 to 10 using while
+// let num = 1
+// while( num <= 10 ) {
+//     console.log(num)
+//     num++
+// }
+
+/*
+WHILE LOOP PRACTICE SET 10
+
+
+
+4 Find factorial of 5
+5 Count digits of a number for example 98765
+6 Reverse a number for example 1234
+7 Find sum of digits of a number
+8 Keep printing numbers starting from 1 until sum becomes greater than 50
+9 Print Fibonacci series up to 10 terms
+10 Keep asking for password until correct password is entered use prompt 
+
+*/
+
+// 2 Print numbers from 10 to 1
+
+// let num = 10
+// while(num >= 1) {
+//     console.log(num);
+//     num--
+// }
+
+// 3 Print multiples of 5 till 50
+
+let num = 5
+while (num <= 50) {
+    console.log(num)
+    num+= 5
+}
+
