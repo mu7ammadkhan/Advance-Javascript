@@ -386,8 +386,8 @@ WHILE LOOP PRACTICE SET 10
 
 
 
-4 Find factorial of 5
-5 Count digits of a number for example 98765
+
+
 6 Reverse a number for example 1234
 7 Find sum of digits of a number
 8 Keep printing numbers starting from 1 until sum becomes greater than 50
@@ -406,9 +406,37 @@ WHILE LOOP PRACTICE SET 10
 
 // 3 Print multiples of 5 till 50
 
-let num = 5
-while (num <= 50) {
-    console.log(num)
-    num+= 5
+// let num = 5
+// while (num <= 50) {
+//     console.log(num)
+//     num+= 5
+// }
+
+// 4 Find factorial of 5
+
+
+// let number = 5
+// let factorial = 1
+
+// while(number >= 1) {
+//     factorial = factorial * number
+//     console.log(number,factorial);
+//     number--
+    
+// }
+
+// 5 Count digits of a number for example 98765
+
+let num = 0
+let Count = 0
+
+if (num === 0) {
+        Count = 1    
+} else {
+     while (num > 0) {
+        num = Math.floor(num / 10)
+        Count++
+    }
 }
 
+console.log("Counter ",Count,"Number ", num);
