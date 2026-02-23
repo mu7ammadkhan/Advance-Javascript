@@ -427,16 +427,24 @@ WHILE LOOP PRACTICE SET 10
 
 // 5 Count digits of a number for example 98765
 
-let num = 0
-let Count = 0
+// let num = 0
+// let Count = 0
 
-if (num === 0) {
-        Count = 1    
+// if (num === 0) {
+//         Count = 1    
+// } else {
+//      while (num > 0) {
+//         num = Math.floor(num / 10)
+//         Count++
+//     }
+// }
+
+// console.log("Counter ",Count,"Number ", num);
+
+if (num != 0) {
+    console.log("Guess the number");
+    
 } else {
-     while (num > 0) {
-        num = Math.floor(num / 10)
-        Count++
-    }
+    console.log("0  not allowed");
+    
 }
-
-console.log("Counter ",Count,"Number ", num);
