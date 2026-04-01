@@ -441,10 +441,16 @@ WHILE LOOP PRACTICE SET 10
 
 // console.log("Counter ",Count,"Number ", num);
 
-if (num != 0) {
-    console.log("Guess the number");
+// if (num != 0) {
+//     console.log("Guess the number");
     
-} else {
-    console.log("0  not allowed");
+// } else {
+//     console.log("0  not allowed");
     
+// }
+
+for(var i=0; i<3; i++) {
+    setTimeout(function() {
+        console.log('num', i);
+    }, 100);
 }
